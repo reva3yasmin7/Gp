@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Pemetaan Persebaran Cagar Budaya di Sleman</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./resources/ol.css">
+<link rel="stylesheet" href="resources/fontawesome-all.min.css">
+<link rel="stylesheet" href="./resources/ol-layerswitcher.css">
+<link rel="stylesheet" href="./resources/qgis2web.css">
+<link href="resources/ol-geocoder.min.css" rel="stylesheet">
+  <!-- =======================================================
+  * Template Name: Gp
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Updated: Mar 17 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Cagar Budaya<span>.</span></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+		  <li><a class="nav-link scrollto" href="#team">Category</a></li>
+          <li><a class="nav-link scrollto" href="#services">Recommendation</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="#about" class="get-started-btn scrollto">Get Started</a>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center justify-content-center">
+    <div class="container" data-aos="fade-up">
+
+      <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
+        <div class="col-xl-6 col-lg-8">
+          <h1>Persebaran Cagar Budaya di Kabupaten Sleman, DIY<span>.</span></h1>
+          
+        </div>
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
+            <img src="assets/img/pertama.jpg" class="img-fluid small-img" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right" data-aos-delay="100">
+            <h3>Cagar Budaya</h3>
+            <p class="fst-italic" style="text-align: justify;">
+              Cagar Budaya merupakan warisan budaya bersifat kebendaan yang terdiri dari benda cagar budaya, bangunan cagar budaya, struktur cagar budaya, situs cagar budaya, dan kawasan cagar budaya di darat dan/atau di air. Hal ini termasuk benda alam dan/atau benda buatan manusia, baik bergerak maupun tidak bergerak, yang berupa kesatuan atau kelompok dan memiliki nilai penting bagi sejarah, ilmu pengetahuan, pendidikan, agama, dan/atau kebudayaan melalui proses penetapan. 3 manfaat penting mempelajari cagar budaya :
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Pelestarian identitas budaya.</li>
+              <li><i class="ri-check-double-line"></i> Pendidikan dan penelitian.</li>
+              <li><i class="ri-check-double-line"></i> Pariwisata dan ekonomi.</li>
+            </ul>
+			<p class="fst-italic" style="text-align: justify;">
+             DIY, utamanya Sleman merupakan salah satu daerah yang memiliki banyak cagar budaya. Cagar budaya di DIY dapat dikelompokkan menjadi benda cagar budaya, bangunan cagar budaya, dan situs cagar budaya.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+   
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="image col-lg-6" style='background-image: url("assets/img/rekom2.png");' data-aos="fade-right"></div>
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="100">
+            <div class="icon-box mt-5 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-receipt"></i>
+              <h4>Candi Prambanan</h4>
+              <p style="text-align: justify;">Candi Prambanan merupakan cagar budaya peninggalan dari masa kejayaan Kerajaan Mataram Kuno dibangun pada abad 9 Masehi dan dibangun dengan arsitektur yang monumental, yang merupakan karya arsitektur yang adiluhung.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-cube-alt"></i>
+              <h4>Museum Ullen Sentalu</h4>
+              <p style="text-align: justify;">Museum Ullen Sentalu merupakan salah satu objek cagar budaya yang dibangun pada abad 19 Masehi dan berlokasi di Kaliurang, Hargobinangun, Kec. Pakem, Kabupaten Sleman, Daerah Istimewa Yogyakarta.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-images"></i>
+              <h4>Arca Ganesha Sumberwatu</h4>
+              <p style="text-align: justify;">Arca Ganesha Sumberwatu adalah sebuah arca yang menarik perhatian karena nilai budaya yang tinggi. Lokasi ini adalah peninggalan dari masa kejayaan Kerajaan Sunda Kuno, yang masih eksis hingga sekarang.</p>
+            </div>
+            <div class="icon-box mt-5" data-aos="zoom-in" data-aos-delay="150">
+              <i class="bx bx-shield"></i>
+              <h4>Vogels Hostel</h4>
+              <p style="text-align: justify;">Vogels Hostel adalah sebuah hostel yang menarik perhatian karena lokasi strategisnya dan nilai budaya yang tinggi. Lokasi ini adalah peninggalan dari masa kejayaan Kerajaan Belanda yang dibangun pada abad 1926 yang masih eksis hingga sekarang.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2></h2>
+          <p>Category</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="100">
+              <div class="member-img">
+                <img src="assets/img/team/bangunan.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info" style="text-align: justify;">
+                <h4>Bangunan</h4>
+                <span>Cagar budaya berupa bangunan merupakan sebuah warisan budaya bersifat kebendaan yang terdiri dari bangunan, gedung, atau struktur yang memiliki nilai penting bagi sejarah, ilmu pengetahuan, pendidikan, agama, dan/atau kebudayaan melalui proses penetapan.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <div class="member-img">
+                <img src="assets/img/team/benda.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info" class="member-info" style="text-align: justify;">
+                <h4>Benda</h4>
+                <span>Cagar budaya berupa benda adalah warisan budaya bersifat kebendaan yang terdiri dari benda alam dan/atau benda buatan manusia, baik bergerak maupun tidak bergerak, berupa kesatuan atau kelompok, atau bagian-bagiannya, atau sisa-sisanya yang memiliki hubungan erat dengan kebudayaan dan sejarah perkembangan manusia.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <div class="member-img">
+                <img src="assets/img/team/situs.png" class="img-fluid" alt="">
+              </div>
+              <div class="member-info" class="member-info" style="text-align: justify;">
+                <h4>Situs</h4>
+                <span>Cagar budaya berupa situs merupakan warisan budaya bersifat kebendaan yang terdiri dari lokasi yang berada di darat dan/atau di air yang mengandung benda cagar budaya, bangunan cagar budaya, dan/atau struktur cagar budaya sebagai hasil kegiatan manusia atau bukti kejadian pada masa lalu.</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+            <div class="member" data-aos="fade-up" data-aos-delay="400">
+              <div class="member-img">
+                <img src="assets/img/team/struktur.png" class="img-fluid" alt=""
+              </div>
+              <div class="member-info" class="member-info" style="text-align: justify;">
+                <h4>Struktur</h4>
+                <span>Cagar budaya berupa struktur adalah warisan budaya bersifat kebendaan yang terdiri dari bangunan, gedung, atau struktur yang memiliki nilai penting bagi sejarah, ilmu pengetahuan, pendidikan, agama, dan/atau kebudayaan melalui proses penetapan.</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Category Section -->
+	
+
+              <!-- ======= Map Section ======= -->
+   <section id="map" class="mapping">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <p>Peta Persebaran Cagar Budaya</p>
+        <h2> Sleman, DIY</h2>
+      </div>
+      <div id="map">
+        <iframe src="qgis2web_2024_04_09-12_17_52_133801/qgismap.html" width="100%" height="600"></iframe>
+      </div>
+    </div>
+  </section><!-- End Map Section -->
+
+	
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2></h2>
+          <p>Recommendation</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Candi Prambanan</a></h4>
+              <p>cagar budaya peninggalan dari masa kejayaan Kerajaan Mataram Kuno dibangun pada abad 9 Masehi</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Vogels Hostel</a></h4>
+              <p>Vogels Hostel adalah sebuah akomodasi yang berlokasi di dekat Museum Ullen Sentalu di Kaliurang, Sleman dengan nuansa bangunan Belanda</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Ullen Sentalu</a></h4>
+              <p>cagar budaya yang dibangun pada abad 19 Masehi dan berlokasi di Kaliurang, Hargobinangun, Kec. Pakem, Kabupaten Sleman yang mengenalkan budaya bangsa Mataram</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-world"></i></div>
+              <h4><a href="">Pasar Srowolan</a></h4>
+              <p>pasar yang berlokasi di Kaliurang, Sleman yang merupakan salah satu cagar budaya yang telah ditetapkan oleh Bupati Sleman dalam dua tahun terakhir</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-slideshow"></i></div>
+              <h4><a href="">Arca Ganesha</a></h4>
+              <p>cagar budaya berupa benda tinggalan arkeologis dari masa klasik dengan latar belakang Agama Hindu</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-arch"></i></div>
+              <h4><a href="">Petilasan Ambarketawang</a></h4>
+              <p>situs arkeologi yang terletak di Daerah Istimewa Yogyakarta, Indonesia. Ini adalah bekas kediaman Sultan Hamengkubuwono I pada tahun 1755-1756</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center" style="color: white;">
+          <h3>Candi Prambanan</h3>
+          <pstyle="text-align: justify;">
+                Candi Prambanan merupakan salah satu destinasi cagar budaya di Sleman, DIY yang terkenal bagi wisatawan domestik dan mancanegara.</p>
+          <a class="cta-btn" href="https://borobudurpark.com/temple/prambanan/" target="_blank">Click here to search</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+
+
+    <!-- ======= Counts Section ======= -->
+    <section id="counts" class="counts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row no-gutters">
+          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start" data-aos="fade-right" data-aos-delay="100"></div>
+          <div class="col-xl-7 ps-4 ps-lg-5 pe-4 pe-lg-1 d-flex align-items-stretch" data-aos="fade-left" data-aos-delay="100">
+            <div class="content d-flex flex-column justify-content-center">
+              <h3>Candi Prambanan</h3>
+              <p style="text-align: justify;">
+                Candi Prambanan merupakan salah satu destinasi cagar budaya yang terkenal bagi wisatawan domestik dan mancanegara. Berikut informasi singkat mengenai Candi Prambanan.
+              </p>
+              <div class="row">
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-emoji-smile"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="2200000" data-purecounter-duration="2" class="purecounter"></span>
+                    <p><strong>Jumlah Total Pengunjung</strong> baik domestik maupun mancanegara pertahunnya mencapai 2.2 juta.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-journal-richtext"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="240" data-purecounter-duration="2" class="purecounter"></span>
+                    <p style="text-align: justify;"><strong>Jumlah Candi</strong> pada Candi Prambanan diperkirakan sekitar 240 candi besar dan kecil. Tetapi kini hanya tersisa 18 candi; yaitu 8 candi utama dan 8 candi kecil di zona inti serta 2 candi perwara.</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-clock"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="4" class="purecounter"></span>
+                    <p><strong>Waktu Kunjungan</strong> pada Candi Prambanan sekitar 10 jam yaitu pada pukul 6.30 hingga 15.30</p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-award"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="4" class="purecounter"></span>
+                    <p><strong>Penghargaan</strong> yang diterima Candi Prambanan dalam beberapa waktu terakhir</p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Counts Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/Salma.png" class="testimonial-img" alt="">
+                <h3>Salma Miladia</h3>
+                <h4>Visitor</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Candi Prambanan adalah sebuah cagar budaya yang sangat menarik. Sejarah dan arsitektur yang ada di sini sangat menarik, dan pengalaman yang saya dapatkan semakin meningkatkan sikap saya terhadap budaya dan sejarah Indonesia. Ruangan yang dibangun dengan arsitektur yang adiluhung sangat menarik, dan saya sangat senang dengan pengalaman yang saya dapatkan di sini. Saya akan selalu ingin kembali ke Candi Prambanan dan menyukai budaya dan sejarah yang ada di sini.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/Rosa.jpeg" class="testimonial-img" alt="">
+                <h3>Rosalba Sirly</h3>
+                <h4>Visitor</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Setelah mengunjungi Candi Prambanan, saya benar-benar terpesona oleh keindahan dan keagungan arsitektur candi ini. Pengalaman sejarah yang mendalam terasa begitu kuat di setiap sudut kompleks. Sungguh pengalaman yang tak terlupakan dan membuat saya semakin mengagumi warisan budaya Indonesia.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Ahmad Maulana</h3>
+                <h4>Visitor</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Sebuah pengalaman yang tidak akan luput, Candi Prambanan adalah sebuah cagar budaya yang menarik dan menyenangkan. Kebautan arsitektur dan sejarahnya sangat menarik, dan pengalaman yang diperoleh semakin meningkatkan sikap saya terhadap budaya dan sejarah Indonesia. Saya sangat senang dengan pengalaman yang saya dapatkan di sini, dan sangat menyukai ruangan yang dibangun dengan arsitektur yang adiluhung. Saya akan selalu ingin kembali ke Candi Prambanan dan menyukai budaya dan sejarah yang ada di sini.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>Zavier Akhtar</h3>
+                <h4>Visitor</h4>
+                <p >
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Mengunjungi Candi Prambanan adalah pengalaman yang mengagumkan! Keindahan arsitektur klasiknya, diiringi dengan aura spiritual yang kuat, sungguh memukau hati saya. Merasakan kehadiran sejarah yang begitu kental membuat saya semakin terinspirasi oleh warisan budaya Indonesia yang luar biasa ini.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+
+        <div>
+            <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16936.18853831291!2d110.3833335!3d-7.733333300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7b9e291cc6d41b%3A0xdf7db09e4c95b99b!2sSleman%2C%20Special%20Region%20of%20Yogyakarta!5e0!3m2!1sen!2sid!4v1648897510795!5m2!1sen!2sid" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Vocational School, Gadjah Mada University</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>salmamiladia@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+6285701782380</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>Cagar Budaya<span>.</span></h3>
+              <p>
+                Survey and Mapping Technology, Vocational School<br>
+                Gadjah Mada University<br><br>
+                <strong>Phone:</strong> +6285701782380<br>
+                <strong>Email:</strong> salmamiladiagmail.com<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="https://x.com/midsallias?t=MXbk4VEwbUqzwg3jzGtfTw&s=09" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/salmamiladia?igsh=MTMycTd2YXprMWlqNg==" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="www.linkedin.com/in/salma-miladia" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+         
+
+          <div class="col-lg-3 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="https://geoportal.slemankab.go.id/layers/geonode_data:geonode:a__3404_5KB_PT_CAGAR_BUDAYA_SLEMAN_2021" target="_blank">Data Source</a></li>
+			  <li><i class="bx bx-chevron-right"></i> <a href="https://www.indonesia-geospasial.com/2020/01/shp-rbi-provinsi-di-yogyakarta.html" target="_blank">Data Source</a></li>
+			  <li><i class="bx bx-chevron-right"></i> <a href="https://kebudayaan.slemankab.go.id/post/bupati-sleman-tetapkan-25-cagar-budaya-tahun-2019-ini" target="_blank">Recommendation</a></li>
+			  
+
+            </ul>
+          </div>
+            </h4>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Visitor :</h4>
+            <p></p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="submit">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright SalmaMiladia
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/ -->
+       
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script src="resources/qgis2web_expressions.js"></script>
+<script src="resources/polyfills.js"></script>
+<script src="./resources/functions.js"></script>
+<script src="./resources/ol.js"></script>
+<script src="./resources/ol-layerswitcher.js"></script>
+<script src="resources/ol-geocoder.js"></script>
+<script src="./layers/layers.js" type="text/javascript"></script> 
+<script src="./resources/Autolinker.min.js"></script>
+<script src="./resources/qgis2web.js"></script>
+</body>
+
+</html>
